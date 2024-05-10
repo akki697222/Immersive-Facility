@@ -11,19 +11,19 @@ val minecraftVersion: String = "1.20.1"
 val forgeVersion: String = "47.2.6"
 val parchmentVersion: String = "2023.09.03-1.20.1"
 val mixinVersion: String = "0.8.5"
-val tfcVersion: String = "4875028"
+val tfcVersion: String = "5276689"
 val jeiVersion: String = "15.2.0.27"
 val patchouliVersion: String = "1.20.1-81-FORGE"
 val jadeVersion: String = "4614153"
 val topVersion: String = "4629624"
-val ieVersion: String = "1.20.1-10.0.0-169.45"
+val ieVersion: String = "1.20.1-10.1.0-171"
 
 val modId: String = "advancedtfctech"
 
 base {
     archivesName.set("AdvancedTFCTech-$minecraftVersion")
     group = "com.hermitowo.advancedtfctech"
-    version = "2.2"
+    version = "2.3"
 }
 
 java {

@@ -149,7 +149,7 @@ public class BeamhouseLogic implements IMultiblockLogic<BeamhouseLogic.State>, I
         {
             final Vec3 soundPos = context.getLevel().toAbsolute(new Vec3(1.5, 1.5, 1.5));
             state.isPlayingSound = MultiblockSound.startSound(
-                () -> state.active, context.isValid(), soundPos, ATTSounds.BEAMHOUSE
+                () -> state.active, context.isValid(), soundPos, ATTSounds.BEAMHOUSE, 0.5f
             );
         }
     }

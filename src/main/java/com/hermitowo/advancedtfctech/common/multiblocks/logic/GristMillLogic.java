@@ -112,7 +112,7 @@ public class GristMillLogic implements IMultiblockLogic<GristMillLogic.State>, I
         {
             final Vec3 soundPos = context.getLevel().toAbsolute(new Vec3(1.5, 1.5, 1.5));
             state.isPlayingSound = MultiblockSound.startSound(
-                () -> state.active, context.isValid(), soundPos, ATTSounds.GRIST_MILL
+                () -> state.active, context.isValid(), soundPos, ATTSounds.GRIST_MILL, 0.5f
             );
         }
     }
